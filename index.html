@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>bmiCalculator</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  </head>
+  <body>
+    <div class="container">
+      <div class="card-header">
+        Bmi Calculator
+      </div>
+      <div class="card-body">
+        <form class="w-50 m-auto" onsubmit="return false">
+          <div class="form-group">
+            <label>Weight: </label>
+            <input type="text" name="" id="weight" class="form-control" placeholder="weight in kg">
+          </div>
+          <div class="form-group">
+            <label>Height: </label>
+            <input type="text" name="" id="height" class="form-control" placeholder="height in ft">
+          </div>
+          <div class="form-group">
+            <label>Bmi value: </label>
+            <input type="text" name="" id="value" class="form-control">
+          </div>
+          <div class="">
+            <button type="submit" name="button" class="btn btn-success" onclick="getBmiValue()">Check Bmi</button>
+          </div>
+        </form>
+      </div>
+      <div class="card-footer">
+        the healthy bmi is within the range of 19 to 25
+      </div>
+    </div>
+    <script src="bmi.js"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+  
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  </body>
+</html>
